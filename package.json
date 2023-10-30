@@ -6,21 +6,13 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sean-Bradley/Threejs-Boilerplate.git"
-  },
   "keywords": [
     "threejs",
-    "boilerplate",
-    "threejs boilerplate"
   ],
-  "author": "Sean Bradley",
-  "license": "ISC",
+  "author": "Captainexpo",
   "bugs": {
     "url": "https://github.com/Sean-Bradley/Threejs-Boilerplate/issues"
   },
-  "homepage": "https://github.com/Sean-Bradley/Threejs-Boilerplate#readme",
   "dependencies": {
     "express": "^4.18.2",
     "three": "^0.157.0"
