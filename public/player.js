@@ -35,27 +35,6 @@ class Player {
         this.Move();
         this.velocity.multiplyScalar(this.drag);
     }
-
-    // Functions to handle key input
-    MoveForward() {
-        this.velocity.z = -this.speed;
-    }
-
-    MoveBackward() {
-        this.velocity.z = this.speed;
-    }
-
-    StrafeLeft() {
-        this.velocity.x = -this.speed;
-    }
-
-    StrafeRight() {
-        this.velocity.x = this.speed;
-    }
-
-    Stop() {
-        this.velocity.set(0, 0, 0);
-    }
 }
 
 

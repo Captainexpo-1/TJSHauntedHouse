@@ -30,7 +30,7 @@ class Enemy{
 
     }
     checkCollision(other_pos, other_radius){
-        const distance = this.position.distanceTo(other_pos);
+        const distance = this.position.distanceTo(new THREE.Vector3(other_pos.x, this.position.y, other_pos.z));
         const min_distance = this.collision_radius + other_radius;
         return distance < min_distance;
     }

@@ -166,14 +166,6 @@ const mouseLook = {
     pitch: 0,
     yaw: 0
 };
-
-function lockMouse() {
-    if (!mouseLook.enabled) {
-        renderer.domElement.requestPointerLock = renderer.domElement.requestPointerLock || renderer.domElement.mozRequestPointerLock || renderer.domElement.webkitRequestPointerLock;
-        renderer.domElement.requestPointerLock();
-    }
-}
-
 function onMouseMove(event) {
     if (mouseLook.enabled) {
         const movementX = event.movementX || 0;
